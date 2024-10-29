@@ -14,7 +14,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
+// Usage IF HTTPS Certified
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
