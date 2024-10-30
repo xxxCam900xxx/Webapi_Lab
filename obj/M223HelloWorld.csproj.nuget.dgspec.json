@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Webapi_Lab/M223HelloWorld.csproj": {}
+    "C:\\Users\\Came\\Desktop\\Webapi_Lab\\M223HelloWorld.csproj": {}
   },
   "projects": {
-    "/workspaces/Webapi_Lab/M223HelloWorld.csproj": {
+    "C:\\Users\\Came\\Desktop\\Webapi_Lab\\M223HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Webapi_Lab/M223HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\Came\\Desktop\\Webapi_Lab\\M223HelloWorld.csproj",
         "projectName": "M223HelloWorld",
-        "projectPath": "/workspaces/Webapi_Lab/M223HelloWorld.csproj",
-        "packagesPath": "/home/vscode/.nuget/packages/",
-        "outputPath": "/workspaces/Webapi_Lab/obj/",
+        "projectPath": "C:\\Users\\Came\\Desktop\\Webapi_Lab\\M223HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\Came\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Came\\Desktop\\Webapi_Lab\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/vscode/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Came\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,19 +43,12 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.0-rc.2.24474.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -60,15 +60,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
